@@ -1,0 +1,16 @@
+body {
+  cursor: default;
+}
+
+.unselectable {
+  -moz-user-select: none;
+  -khtml-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.cydia-icon {
+  width: 60px;
+  height: 60px;
+}
