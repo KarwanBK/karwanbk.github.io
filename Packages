@@ -1,0 +1,17 @@
+Package: io.github.karwanbk.sbutils
+Name: sbutils
+Replaces: com.innoying.sbutils, io.github.awesomebing1.sbutils
+Architecture: iphoneos-arm
+Description: iOS utilities - replaces some broken Erica utilities and adds a bunch of new ones. And, this time, it might work. Originally made by innoying.
+Maintainer: awesomebing1
+Author: awesomebing1
+Section: System
+Tag: role::hacker
+Version: 2.1.1
+Installed-Size: 1568
+MD5sum: 3c80afcb7d2b4d86fe62bd6c1bd1e1b7
+SHA1: 7b1a6af5ff17b90ef9bd42e0547333ebd3a3e5aa
+SHA256: 7ba4d625fae2a2cc46dc97b7f75b8a68c4b4766c35984725bf86b8878f4b3526
+SHA512: 34b1320290def2107fe090d0be0af004e0890357c364d3f788859d8fca7d76c997473c814efbb79870c3203c05774da11167e01dbe01263e322c7294ff91709f
+Size: 61732
+
