@@ -1,0 +1,442 @@
+body {
+  -webkit-text-size-adjust: none;
+  -webkit-touch-callout: none;
+  -webkit-user-select: text;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  margin: 9px auto;
+  width: 100vw;
+  max-width: 414px !important;
+  background-color: #f4f4f4;
+  min-font-size: 16px;
+  text-align: center;
+  font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+  font-weight: 500;
+  font-size: 15px;
+}
+
+body panel {
+  display: block;
+  margin: 0;
+  border: 0;
+  margin-top: 9px;
+  margin-bottom: 28px;
+  width: 100%;
+}
+
+body panel panel-body {
+  margin-left: 14px;
+  margin-right: 14px;
+  background-color: white;
+  text-align: left;
+  border-radius: 15px;
+  overflow: hidden;
+  display: block;
+  padding: 15px 20px;
+  box-shadow: 2px 2px 40px -12px #999;
+  font-size: 15px;
+  color: #666;
+}
+
+body panel panel-header {
+  margin: 12px;
+  margin-left: 12px;
+  margin-right: 12px;
+  display: block;
+  padding: 8px 16px 0px 20px;
+  text-align: left;
+  font-size: 24px;
+  font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+  margin-bottom: 13px;
+  padding-left: 14px;
+  color: #111;
+}
+
+panel panel-header label {
+  font-weight: 800 !important;
+}
+
+panel panel-body table tbody tr td {
+  font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+  font-weight: 700;
+  font-size: 15px;
+  float: left;
+  margin: 11px 2px;
+  line-height: 1.1;
+  color: #111;
+  text-align: left;
+  color: #888;
+  color: #111;
+}
+
+panel panel-body table>tbody>tr>td:nth-child(2) {
+  color: #777;
+  float: right;
+  font-weight: 500;
+  font-size: 15px;
+  text-align: right;
+  font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+  color: #111;
+  padding-top: 1px;
+  padding-bottom: 1px;
+  color: #888;
+}
+
+panel panel-body>table>tbody>tr:first-child td {
+  margin-top: 0px;
+}
+
+panel panel-body>table>tbody>tr:last-child td {
+  margin-bottom: 0px;
+}
+
+
+table.more>tbody>tr>td:nth-child(2) {
+  float: left;
+  padding-top: 9px;
+}
+
+table.more>tbody>tr>td:last-child {
+  float: right;
+  font-weight: 500;
+}
+
+table td input[type="button"] {
+  width: 100%;
+  height: 100%;
+}
+
+panel panel-body>table {
+  width: 100%;
+}
+
+panel panel-body>table>tbody>tr {
+  border-bottom: 1px solid #cacaca;
+}
+
+body panel panel-body>table>tbody>tr:last-child {
+  border-bottom: none;
+}
+
+panel panel-body>ul {
+  padding: 0px 17px;
+  line-height: 1.5;
+  font-weight: 500;
+  font-size: 15px;
+  margin: 0px;
+  font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+}
+
+h2 {
+  font-size: 28px;
+  font-weight: 800;
+  color: black;
+  line-height: 1.5;
+  text-align: center;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+.screenshot-viewer {
+  overflow: -moz-scrollbars-none;
+  overflow: scroll;
+  overflow-x: auto;
+  overflow-y: hidden;
+  -webkit-overflow-scrolling: touch;
+  overflow-scrolling: touch;
+  width: auto;
+  min-width: 100%;
+  white-space: nowrap;
+  margin-left: -6px;
+  margin-right: -6px;
+  padding-left: 6px;
+  padding-right: 6px;
+  list-style: none;
+  margin-top: 15px;
+  -ms-overflow-style: none;
+}
+
+.screenshot-viewer::-webkit-scrollbar {
+  display: none;
+}
+
+.screenshot-item {
+  margin: 0;
+  padding: 0;
+  display: inline-block;
+  vertical-align: bottom;
+  font-size: 13px;
+  margin-right: 6.25px;
+  margin-left: 6.25px;
+}
+
+.screenshot-item:first-child {
+  margin-left: 0px;
+}
+
+.screenshot-item:last-child {
+  margin-right: 0px;
+}
+
+.screenshot-img {
+  margin: 0;
+  position: relative;
+  z-index: 1;
+  height: 230px;
+  width: auto;
+  border-radius: 6px;
+  overflow: hidden;
+}
+
+.fading-sep {
+  margin-top: 10px;
+  height: 1px;
+  background: linear-gradient(90deg, white, #dddddd, white);
+}
+
+.changes-more>div {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 0;
+  display: inline;
+  text-decoration: none !important;
+  color: #484848;
+  -webkit-letter-spacing: 0.5px;
+  -moz-letter-spacing: 0.5px;
+  -ms-letter-spacing: 0.5px;
+  letter-spacing: 0.5px;
+  -webkit-background-clip: text;
+  background: linear-gradient(90deg, #30c381, #089e46);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+
+.changes-more {
+  margin-right: -20px;
+  margin-left: -20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  text-align: center;
+  padding-top: 15px;
+  padding-bottom: 12px;
+  width: 100%;
+  display: block;
+  margin-top: 0px;
+  margin-bottom: -12px;
+  text-decoration: none !important;
+  -webkit-background-clip: text;
+  margin-top: 0px;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #cccccc;
+  margin: 1em 0;
+  padding: 0;
+}
+
+.alert {
+  padding: 8px 35px 8px 14px;
+  margin-bottom: 18px;
+  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
+  background-color: #fcf8e3;
+  border: 1px solid #fbeed5;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  color: #c09853;
+}
+
+.alert-heading {
+  color: inherit;
+}
+
+.alert .close {
+  position: relative;
+  top: -2px;
+  right: -21px;
+  line-height: 18px;
+}
+
+.alert-success {
+  background-color: #dff0d8;
+  border-color: #d6e9c6;
+  color: #468847;
+}
+
+.alert-danger, .alert-error {
+  background-color: #f2dede;
+  border-color: #eed3d7;
+  color: #b94a48;
+}
+
+.alert-info {
+  background-color: #d9edf7;
+  border-color: #bce8f1;
+  color: #3a87ad;
+}
+
+.alert-block {
+  padding-top: 14px;
+  padding-bottom: 14px;
+}
+
+.alert-block>p, .alert-block>ul {
+  margin-bottom: 0;
+}
+
+.alert-block p+p {
+  margin-top: 5px;
+}
+
+.right {
+  float: right;
+  margin-right: 1px;
+}
+
+.half {
+  width: 35%;
+}
+
+.left {
+  float: left;
+  margin-left: 1px;
+}
+
+.icon {
+  width: 30px;
+  height: 30px;
+  vertical-align: middle;
+  text-align: center;
+}
+
+.contact {
+  background: url('images/mail.png') no-repeat;
+  background-size: 30px 30px;
+  background-position: center;
+}
+
+.twitter {
+  background: url('images/twitter.png') no-repeat;
+  background-size: 30px 30px;
+  background-position: center;
+}
+
+.paypal {
+  background: url('images/paypal.png') no-repeat;
+  background-size: 30px 30px;
+  background-position: center;
+}
+
+.report {
+  background: url('images/report.png') no-repeat;
+  background-size: 30px 30px;
+  background-position: center;
+}
+
+.comment {
+  background: url('images/comment.png') no-repeat;
+  background-size: 30px 30px;
+  background-position: center;
+}
+
+.download {
+  background: url('images/download.png') no-repeat;
+  background-size: 30px 30px;
+  background-position: center;
+}
+.website {
+  background: url('images/website.png') no-repeat;
+  background-size: 30px 30px;
+  background-position: center;
+}
+
+.ios11 {
+  background: url('images/ios11.png') no-repeat;
+  background-size: 30px 30px;
+  background-position: center;
+}
+
+.ios12 {
+  background: url('images/ios12.png') no-repeat;
+  background-size: 30px 30px;
+  background-position: center;
+}
+
+.cydia {
+  background: url('images/cydia.png') no-repeat;
+  background-size: 30px 30px;
+  background-position: center;
+}
+
+
+.chevron {
+  vertical-align: middle;
+  text-align: center;
+  background: url('images/arrow.png') no-repeat;
+  background-size: 22px 22px;
+  background-position: center;
+  width: 22px;
+  height: 22px;
+  float: right;
+  padding-top: 9px;
+  -webkit-transform: rotate(180deg);
+  transform: rotate(180deg);
+}
+.title {
+  direction: ltr;
+}
+
+
+/* button */
+
+
+.buttons {
+  margin: 10%;
+  text-align: center;
+}
+
+.btn-hover {
+  width: 150px;
+  font-size: 16px;
+  font-weight: 600;
+  color: #fff;
+  cursor: pointer;
+  margin: 20px;
+  height: 55px;
+  text-align:center;
+  border: none;
+  background-size: 300% 100%;
+
+  border-radius: 50px;
+  moz-transition: all .4s ease-in-out;
+  -o-transition: all .4s ease-in-out;
+  -webkit-transition: all .4s ease-in-out;
+  transition: all .4s ease-in-out;
+}
+
+.btn-hover:hover {
+  background-position: 100% 0;
+  moz-transition: all .4s ease-in-out;
+  -o-transition: all .4s ease-in-out;
+  -webkit-transition: all .4s ease-in-out;
+  transition: all .4s ease-in-out;
+}
+
+.btn-hover:focus {
+  outline: none;
+}
+
+.btn-hover.color {
+  background-image: linear-gradient(to right, #25aae1, #40e495, #30dd8a, #2bb673);
+  box-shadow: 0 4px 15px 0 rgba(49, 196, 190, 0.75);
+}

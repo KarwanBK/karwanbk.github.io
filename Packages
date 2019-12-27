@@ -4,7 +4,6 @@ Replaces: com.innoying.sbutils, io.github.awesomebing1.sbutils
 Architecture: iphoneos-arm
 Description: iOS utilities - replaces some broken Erica utilities and adds a bunch of new ones. And, this time, it might work. Originally made by innoying.
 Maintainer: awesomebing1
-Filename: ./debs/sbutils.deb
 Author: awesomebing1
 Section: System
 Tag: role::hacker
@@ -15,4 +14,23 @@ SHA1: 7b1a6af5ff17b90ef9bd42e0547333ebd3a3e5aa
 SHA256: 7ba4d625fae2a2cc46dc97b7f75b8a68c4b4766c35984725bf86b8878f4b3526
 SHA512: 34b1320290def2107fe090d0be0af004e0890357c364d3f788859d8fca7d76c997473c814efbb79870c3203c05774da11167e01dbe01263e322c7294ff91709f
 Size: 61732
+
+Package: io.github.karwanbk.shadowfight2
+Name: Shadow Fight 2 Hack
+Version: 2.2.0
+Section: Game Hacks
+Architecture: iphoneos-arm
+Description: Shadow Fight 2 hack by Karwanbk!
+Depiction: http://repo.kurdios.com/depiction/shadowfight2.html
+Depends: wget, plutil, io.github.karwanbk.sbutils
+Author: Karwan BK <karwanbk@yahoo.com>
+Sponsor: Karwan BK <karwanbk@yahoo.com>
+Maintainer: Karwan BK <karwanbk@yahoo.com>
+Icon: file:///var/mobile/Library/kurd-patcher/shadowfight2.png
+Filename: ./debs/shadowfight2.deb
+MD5sum: b85212d3a1982b7b58b489faf7666dbd
+SHA1: 76685c4e1a22be8df24ca8e7cd6bca3d3a5eb0ce
+SHA256: 63b74ccffed04b711b7eae3c89e64e3e547dbe6bb4de8616857005564e3e827e
+SHA512: d7d24088e9fad88f25ae95db339307c8877bf3de199b7e0430981873922a33b302b8f57fa9afa1622abeda67ef9a035199dc85a635a913f7be33b3a2192753d5
+Size: 18144
 
