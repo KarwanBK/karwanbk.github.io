@@ -17,7 +17,6 @@ SHA256: f095adcae9e90a390dab7d271410c0131199fd8cb5761f8fd1817d9c64e7ae3e
 SHA512: 97118a0ccb4d5a906603d62d08696ded6afa72f84e6d84dbd82a89074a88d66bf90989cf52b5498fd162c026b8350772f90a1bca7e6bcbd9208a438bcd2cd6fb
 Size: 18150
 
-
 Package: io.github.karwanbk.sbutils
 Name: sbutils
 Replaces: com.innoying.sbutils, io.github.awesomebing1.sbutils
