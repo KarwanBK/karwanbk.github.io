@@ -22,15 +22,15 @@ Section: Games
 Architecture: iphoneos-arm
 Description: Shadow Fight 2 hack by Karwanbk!
 Depiction: https://karwanbk.github.io/depiction/shadowfight2.html
-Depends: wget, plutil, io.github.karwanbk.sbutils
+Depends: wget, com.binger.plutil, io.github.karwanbk.sbutils
 Author: Karwan BK <karwanbk@yahoo.com>
 Sponsor: Karwan BK <karwanbk@yahoo.com>
 Maintainer: Karwan BK <karwanbk@yahoo.com>
 Icon: file:///var/mobile/Library/kurd-patcher/shadowfight2.png
 Filename: ./debs/shadowfight2.deb
-MD5sum: cdda64d5d2715860c18653d7605e1f9f
-SHA1: d1cf26b42464483c8fba9dbce3b7e190cc077668
-SHA256: 518a639fdc6ec09c446dc9f3988fab4034213720ad43524dd2709b6021a21bb2
-SHA512: 7ed459e78c5658a60de44266c22fa22f2f7d1330428e9debd79a47a66a5a3070d6b9e0009a828409383a52f5ed5e3658ff5e5c169a02a058fa1edfb717cc18ba
-Size: 18140
+MD5sum: be73c90969035916638cb6b88b52b7fb
+SHA1: 00059bf893eb82b37fc786304dfbc215052927c5
+SHA256: e95e00a5dd600052861f3c99c1ec1159608fe15604d793af7ce94a40c4a60cd3
+SHA512: 2c83ef3abae58672db36caf11ee9940f015da0c5559c2a9575208c4454ffc2637329bcc23580f392d95b76bf01dc7a80039f234510dc530c16028c698f0b578b
+Size: 18148
 
